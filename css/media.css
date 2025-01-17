@@ -1,0 +1,717 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1750px) {
+    .menu > li > a {
+        padding: 10px 4px;
+    }
+    .header__buttons {
+        gap: 13px;
+    }
+    .header__wrapper {
+        gap: 25px;
+    }
+    body {
+        font-size: 15px;
+    }
+    .sidebar {
+        width: 280px;
+        padding: 38px;
+    }
+    .header {
+        left: 280px;
+    }
+    .wrapper {
+        padding-left: 280px;
+    }
+    .billbord-block {
+        height: 800px;
+    }
+    .title-big {
+        font-size: 44px;
+        margin-bottom: 53px;
+    }
+    .billbord-block__content {
+        max-width: 680px;
+    }
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .slider-partners {
+        padding: 0 80px;
+    }
+    .slick-arrow {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .item-partner {
+        height: 145px;
+    }
+    .contacts-block {
+        left: 30px;
+    }
+    .billbord .controls-slider {
+        right: 30px;
+        bottom: 30px;
+    }
+    .controls-slider {
+        gap: 30px;
+    }
+}
+@media only screen and (max-width : 1600px) {
+    .sidebar {
+        width: 250px;
+        padding: 24px;
+    }
+    .wrapper {
+        padding-left: 250px;
+    }
+    .header {
+        left: 250px;
+    }
+    .logo-descr {
+        font-size: 12px;
+    }
+    .logo img {
+        width: 66px;
+    }
+    .logo-wrap {
+        max-width: 180px;
+        margin: 0 auto;
+        margin-bottom: 23px;
+        gap: 14px;
+    }
+    body {
+        font-size: 13px;
+    }
+    .nav > li > a {
+        padding: 10px 4px;
+        padding-right: 10px;
+    }
+    .header__buttons .btn-main {
+        height: 47px;
+        padding: 0 18px;
+    }
+    .btn-main.btn-main_phone {
+        font-size: 16px;
+        gap: 9px;
+        padding: 0 15px;
+    }
+    .billbord-block {
+        height: 660px;
+    }
+    .descr-billbord p:not(:last-child) {
+        margin-bottom: 12px;
+    }   
+    .descr-billbord {
+        font-size: 17px;
+    }
+    .title-big {
+        font-size: 39px;
+        margin-bottom: 30px;
+    }
+    .billbord-block__content {
+        max-width: 590px;
+    }
+    .container {
+        max-width: 1000px;
+    }
+    .item-advantage__title {
+        font-size: 36px;
+        margin-bottom: 13px;
+    }
+    .item-advantage {
+        padding: 30px;
+        padding-top: 24px;
+    }
+    .row > div {
+        padding: 0 8px;
+    }
+    .row {
+        margin: 0 -8px;
+    }
+    .row.row_main > div {
+        margin-bottom: 16px;
+    }
+    .row.row_main {
+        margin-bottom: -16px;
+    }
+    .advantages {
+        padding-top: 45px;
+        padding-bottom: 65px;
+    }
+    .title-section {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+    .advantages__bg {
+        right: -350px;
+    }
+    .advantages__bg img {
+        max-width: 500px;
+    }
+    .item-category__image {
+        height: 200px;
+        max-width: 240px;
+    }
+    .item-category__logo img {
+        width: 38px;
+    }
+    .item-category__title {
+        font-size: 17px;
+    }
+    .item-category {
+        padding: 14px 12px;
+        padding-bottom: 22px;
+    }
+    .partners {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .slider-partners {
+        padding: 0 60px;
+    }
+    .slider-partners .slick-slide {
+        padding: 0 8px;
+    }
+    .slider-partners .slick-list {
+        margin: 0 -8px;
+    }
+    .item-partner {
+        height: 130px;
+    }
+    .title-min {
+        font-size: 16px;
+    }
+    .contacts-block__item .title-min {
+        margin-bottom: 6px;
+    }
+    .contacts-block__item {
+        margin-bottom: 15px;
+    }
+    .contacts-block {
+        padding: 25px;
+        width: 280px;
+        top: 21px;
+        font-size: 13px;
+    }
+    #map {
+        height: 434px;
+    }
+    .contacts {
+        padding-bottom: 70px;
+    }
+    .footer__title, .footer__nav li {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    .footer {
+        font-size: 13px;
+    }
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+    .slick-dots li {
+        width: 10px;
+        height: 10px;
+        margin: 0 6px;
+    }
+    .btn-main {
+        height: 44px;
+        padding: 0 28px;
+        font-size: 13px;
+    }
+    .sidebar .btn-main {
+        margin-top: 28px;
+    }
+    .sidebar__contacts {
+        font-size: 13px;
+    }
+    .nav {
+        margin-bottom: 30px;
+    }
+    .nav ul {
+        font-size: 13px;
+    }
+    .footer__contacts {
+        margin-left: -40px;
+    }
+    .header-search.active .header-search__form {
+        width: 470px;
+    }
+    .item-advantage__icon {
+        width: 53px;
+        height: 53px;
+        padding: 13px;
+    }
+}
+@media only screen and (max-width : 1400px) {
+    .sidebar {
+        width: 230px;
+        padding: 16px;
+    }
+    .wrapper {
+        padding-left: 230px;
+    }
+    .header {
+        left: 230px;
+    }
+    .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .menu > li > a {
+        gap: 6px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .header__buttons .btn-main {
+        height: 43px;
+        padding: 0px 12px;
+        font-size: 12px;
+    }
+    .btn-main.btn-main_phone {
+        font-size: 14px;
+        gap: 4px;
+    }
+    .header__buttons {
+        gap: 6px;
+    }
+    .menu > li > a {
+        padding: 8px 1px;
+    }
+    .slick-arrow {
+        width: 45px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .controls-slider {
+        gap: 22px;
+    }
+    .billbord .controls-slider {
+        right: 20px;
+        bottom: 20px;
+    }
+    .billbord-block {
+        height: 570px;
+    }
+    .title-big {
+        font-size: 33px;
+        margin-bottom: 25px;
+    }
+    .billbord-block__content {
+        max-width: 500px;
+    }
+    .descr-billbord {
+        font-size: 16px;
+    }
+    .item-advantage__title {
+        font-size: 32px;
+    }
+    .item-advantage__icon {
+        width: 53px;
+        height: 53px;
+        padding: 12px;
+    }
+    .container {
+        max-width: 910px;
+    }
+    .item-category__image {
+        height: 180px;
+        max-width: 210px;
+    }
+    .item-category__title {
+        font-size: 16px;
+    }
+    .slider-partners .slick-slide {
+        padding: 0 4px;
+    }
+    .slider-partners .slick-list {
+        margin: 0 -4px;
+    }
+    .item-partner {
+        height: 105px;
+    }
+    .contacts-block {
+        width: 255px;
+    }
+    .footer__title, .footer__nav li {
+        font-size: 15px;
+    }
+    .footer__contacts {
+        margin-left: -65px;
+    }
+    .header__wrapper {
+        gap: 6px;
+    }
+    .header-search input {
+        font-size: 13px;
+    }
+    .header-search.active .header-search__form {
+        width: 444px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header__buttons {
+        display: none;
+    }
+    .footer-bottom {
+        margin-top: 40px;
+    }
+    .footer {
+        font-size: 12px;
+    }
+    .partners {
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+    .title-section {
+        font-size: 29px;
+        margin-bottom: 25px;
+    }
+    .title-big {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .billbord-block__content {
+        max-width: 400px;
+    }
+    .billbord-block {
+        height: 440px;
+    }
+    .descr-billbord {
+        font-size: 14px;
+    }
+    .item-advantage__title {
+        font-size: 28px;
+    }
+    .item-advantage {
+        padding: 24px;
+        padding-top: 20px;
+    }
+    .footer__contacts {
+        margin-left: -50px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .sidebar {
+        display: none;
+    }
+    .header {
+        padding: 5px 0;
+        left: 0;
+    }
+    .wrapper {
+        padding: 0;
+    }
+    .menu {
+        display: none;
+    }
+    .title-big {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .billbord-block {
+        height: 490px;
+    }
+    .billbord-block__image img {
+        object-position: 42% 50%;
+    }
+    .descr-billbord {
+        font-size: 13px;
+    }
+    .billbord-block__content {
+        max-width: 235px;
+    }
+    .descr-billbord p:not(:last-child) {
+        margin-bottom: 7px;
+    }
+    .billbord .controls-slider {
+        right: 0;
+        left: 0;
+        bottom: 25px;
+        justify-content: center;
+    }
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .advantages {
+        padding-top: 36px;
+        padding-bottom: 50px;
+    }
+    .item-advantage__title {
+        font-size: 25px;
+    }
+    .slider-partners {
+        padding: 0;
+    }
+    .item-partner {
+        height: 90px;
+    }
+    .slider-partners {
+        padding-bottom: 30px;
+    }
+    .partners {
+        padding-bottom: 45px;
+    }
+    .contacts-block {
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: relative;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #map {
+        height: 380px;
+    }
+    .contacts {
+        padding-bottom: 50px;
+    }
+    .footer__contacts {
+        margin-left: 0;
+    }
+    .footer .row > div {
+        margin-bottom: 25px;
+    }
+    .footer .row {
+        margin-bottom: -25px;
+    }
+    .create {
+        margin-left: 0;
+    }
+    .footer-bottom .row > div {
+        margin-bottom: 13px;
+    }
+    .footer-bottom .row {
+        margin-bottom: -13px;
+    }
+    .btn_top {
+        margin-top: -35px;
+    }
+    .footer {
+        font-size: 14px;
+    }
+    .footer__title, .footer__nav li {
+        font-size: 16px;
+    }
+    .footer__nav li {
+        margin-bottom: 10px;
+    }
+    .footer-bottom {
+        margin-top: 30px;
+        padding-bottom: 22px;
+    }
+    .header .logo img {
+        width: 50px;
+    }
+    .header-search {
+        display: none;
+    }
+    .phone-mobile {
+        width: 45px;
+        height: 45px;
+        border-radius: 8px;
+        background: #E31E24;
+        color: #fff;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sandwich {
+        display: flex;
+    }
+    .header.fixed {
+        padding: 5px 0;
+    }
+    .menu-mobile {
+        width: 100%;
+        top: 100%;
+        left: 0;
+        max-height: 100vh;
+        padding: 15px 15px;
+        padding-bottom: 110px;
+        display: none;
+        overflow: auto;
+        background: #fff;
+        position: absolute;
+    }
+    .menu-overlay {
+        top: 126px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        z-index: -1;
+        display: none;
+    }
+    .no-scroll {
+        overflow: hidden;
+    }
+    .menu-mobile .menu {
+        margin-bottom: 25px;
+        display: block;
+    }
+    .menu-mobile .menu > li > a {
+        padding: 12px 6px;
+        border-color: #000;
+        justify-content: space-between;
+    }
+    body {
+        font-size: 14px;
+    }
+    .header.active {
+        background: #fff;
+    }
+    .menu li ul {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transition: initial;
+        display: none;
+    }
+    .menu__haschild.active > a::after {
+        transform: rotate(180deg);
+    }
+    .menu-mobile .menu li ul li a {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        border: none;
+    }
+    .menu-mobile .btn-main {
+        margin-top: 25px;
+    }
+    .menu-mobile .header__buttons {
+        display: flex;
+    }
+    .header__buttons .btn-main {
+        flex-grow: 1;
+    }
+    .menu-mobile .header-search {
+        display: block;
+        margin-bottom: 7px;
+    }
+    .menu-mobile .header-search .header-search__form {
+        width: 100%;
+        right: 0;
+        position: relative;
+    }
+    .menu-mobile .open-search {
+        display: none;
+    }
+    .header-search input {
+        font-size: 14px;
+    }
+    .item-advantage br {
+        display: none;
+    }
+    .item-category__image {
+        height: 145px;
+        max-width: 170px;
+    }
+    .item-category {
+        padding: 10px 5px;
+    }
+    .item-category__title {
+        font-size: 13px;
+    }
+    .item-category__logo img {
+        width: 24px;
+    }
+    .row.row_main > div {
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .row.row_main {
+        margin: 0 -8px;
+        margin-bottom: -8px;
+    }
+    .categories {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .bottom-button {
+        padding-top: 30px;
+    }
+    .item-advantage {
+        padding: 10px;
+        font-size: 12px;
+        line-height: 140%;
+    }
+    .item-advantage__icon {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 10px;
+        padding: 12px;
+    }
+    .item-advantage__title {
+        font-size: 16px;
+    }
+    .header-search input {
+        border-color: #d5d5d5;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .menu-mobile,
+    .phone-mobile,
+    .header__wrapper .logo {
+        display: none !important;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1170px;
+}
+}
