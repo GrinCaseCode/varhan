@@ -82,11 +82,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		});
 	
 		  $(document).mouseup(function (e) {
-		var container = $(".header-search");
-		if (container.has(e.target).length === 0){
-		 $(".header-search").removeClass("active");
-		}
-	  });
+			var container = $(".header-search");
+			if (container.has(e.target).length === 0){
+			$(".header-search").removeClass("active");
+			}
+		});
 
 	//слайдер
 
