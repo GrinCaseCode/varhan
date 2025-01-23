@@ -866,6 +866,7 @@
     }
     .page-card .title-section {
         font-size: 24px;
+        text-wrap: pretty;
     }
     .card-main {
         margin-bottom: 50px;
