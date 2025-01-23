@@ -18,6 +18,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $menu.removeClass("fixed").addClass("default");
   }
 
+  $(".item-question__head").click(function() {
+    $(this).parent().toggleClass("active");
+    $(this).siblings().slideToggle(200);
+    $(this).parent().siblings(".item-question").removeClass("active");
+    $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+  });
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -126,6 +133,35 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 				settings: {
 					slidesToShow: 3,
 					slidesToScroll: 3,
+					arrows: false,
+					dots: true,
+				}
+			}
+		]
+	});
+
+	$('.slider-catalog').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 2,
+					arrows: false,
+					dots: true,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1,
 					arrows: false,
 					dots: true,
 				}
