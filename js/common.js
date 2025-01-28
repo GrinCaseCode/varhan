@@ -169,6 +169,31 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	$('.slider-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.slider-nav',
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fal fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fal fa-chevron-right"></i><div/>',
+	});
+
+	$('.slider-nav').slick({
+		arrows: false,
+		dots: false,
+		infinite: false,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		asNavFor: '.slider-for',
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fal fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fal fa-chevron-right"></i><div/>',
+	});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 
